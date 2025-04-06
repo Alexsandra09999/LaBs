@@ -1,3 +1,13 @@
 #!/bin/bash
-date >> /usr/local/folder_max/output.log
-date >> ~/output.log
+
+# 1. Определяем путь к лог-файлу (в текущей папке)
+LOG_FILE="output.log"
+
+# 2. Получаем текущую дату и время
+date_time=$(date +"%Y-%m-%d %H:%M:%S")
+
+# 3. Записываем в лог-файл
+echo "$date_time" >> "$LOG_FILE"
+
+# 4. Выводим подтверждение
+echo "Запись добавлена в $LOG_FILE"
