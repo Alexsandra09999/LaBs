@@ -1,9 +1,5 @@
-build/
-*.pyc
-__pycache__/
-build/
-*.pyc
-__pycache__/
-build/
-*.pyc
-__pycache__/
+/build/
+/dist/
+/__pycache__/
+/*.spec
+
