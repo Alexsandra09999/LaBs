@@ -69,7 +69,7 @@ void free_list() {
 int main() {
     int num_disks = 8;
     
-    printf("Решение головоломки Ханойская башня с %d дисками:\n", num_disks);
+    printf("Решение головоломки Ханойская башня с дисками:\n", num_disks);
     hanoi(num_disks, 'A', 'C', 'B');
     print_moves();
     
